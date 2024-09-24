@@ -1,0 +1,31 @@
+<div class="container mt-5">
+    <h1>Update Job Application</h1>
+    <form method="POST">
+        <div class="mb-3">
+            <label for="company" class="form-label">Company</label>
+            <input type="text" class="form-control" id="company" name="company" value="{{ application.company }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="position" class="form-label">Position</label>
+            <input type="text" class="form-control" id="position" name="position" value="{{ application.position }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="date_applied" class="form-label">Date Applied</label>
+            <input type="date" class="form-control" id="date_applied" name="date_applied" value="{{ application.date_applied }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select class="form-select" id="status" name="status">
+                <option value="Applied" {% if application.status == 'Applied' %}selected{% endif %}>Applied</option>
+                <option value="Interview" {% if application.status == 'Interview' %}selected{% endif %}>Interview</option>
+                <option value="Rejected" {% if application.status == 'Rejected' %}selected{% endif %}>Rejected</option>
+                <option value="Offer" {% if application.status == 'Offer' %}selected{% endif %}>Offer</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="notes" class="form-label">Notes</label>
+            <textarea class="form-control" id="notes" name="notes">{{ application.notes }}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Update Application</button>
+    </form>
+</div>
