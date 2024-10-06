@@ -1,8 +1,8 @@
 # Job Application Tracker
 
-\[
+$\[
 \text{Job Application Tracker}
-\]
+\]$
 
 Welcome to the **Job Application Tracker**! This web-based application helps you keep track of your job applications, manage their statuses, and stay organized throughout your job search process.
 
@@ -45,15 +45,26 @@ The following technologies were used to build this project:
 ├── app/
 │   ├── __init__.py
 │   ├── models.py
-│   └── routes.py
-├── templates/
-│   ├── add_application.html
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   ├── update_application.html
-├── static/
-│   ├── style.css
-│   └── app.js
+│   ├── routes.py
+│   ├── templates/
+│   │   ├── add_application.html
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   └── update_application.html
+│   ├── static/
+│   │   ├── css/
+│   │   └── js/
+├── instance/
+│   ├── job_applications.db
+├── migrations/
+│   ├── alembic.ini
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions/
+├── venv/
+├── config.py
 ├── README.md
+├── requirements.txt
 └── run.py
