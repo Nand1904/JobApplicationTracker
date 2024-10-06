@@ -115,7 +115,7 @@ $$N=∑i=1nAiN = \sum_{i=1}^{n} A_iN=i=1∑n​Ai​$$
 
 Where $Ai$ is the application at position i, and nnn is the total number of applications.
 
-Track your applications and stay organized!\text{Track your applications and stay organized!}Track your applications and stay organized!
+Track your applications and stay organized! $\text{Track your applications and stay organized!}$ Track your applications and stay organized!
 
 Contribution
 ------------
