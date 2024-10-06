@@ -109,11 +109,11 @@ To run the application locally, follow these steps:
 Mathematical Model (LaTeX)
 --------------------------
 
-Here is a simple mathematical expression that represents the total number of job applications (NNN) you have added:
+Here is a simple mathematical expression that represents the total number of job applications (N) you have added:
 
-N=∑i=1nAiN = \sum_{i=1}^{n} A_iN=i=1∑n​Ai​
+$$N=∑i=1nAiN = \sum_{i=1}^{n} A_iN=i=1∑n​Ai​$$
 
-Where AiA_iAi​ is the application at position iii, and nnn is the total number of applications.
+Where $Ai$ is the application at position i, and nnn is the total number of applications.
 
 Track your applications and stay organized!\text{Track your applications and stay organized!}Track your applications and stay organized!
 
