@@ -68,6 +68,7 @@ The following technologies were used to build this project:
 ├── README.md
 ├── requirements.txt
 └── run.py
+```
 Setup Instructions
 ------------------
 
