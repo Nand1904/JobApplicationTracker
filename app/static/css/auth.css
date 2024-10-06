@@ -1,0 +1,106 @@
+/* auth.css - keep this specific to login/register */
+
+body {
+  background-color: #f0f0f0; /* Set a light background for the whole page */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the body takes up the full height */
+}
+
+.hero {
+  padding: 80px 20px; /* Adjust padding for a better look */
+  text-align: center;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 123, 255, 0.9),
+    rgba(0, 198, 255, 0.9)
+  );
+  color: white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: white; /* Changed to white for a cleaner look */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: -50px; /* Overlap the hero section slightly */
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  border-radius: 5px;
+  background: #f9f9f9; /* Light background for input fields */
+  color: #333;
+  transition: border 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a shadow effect */
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #28a745; /* Changed background color */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s; /* Added transform effect */
+}
+
+button:hover {
+  background: #218838; /* Darker shade on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+.feature {
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* Light background for features */
+  border-radius: 10px;
+  margin: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  margin-top: auto; /* Ensure footer is pushed to the bottom */
+  text-align: center;
+  padding: 20px; /* Add some padding */
+  background-color: #343a40; /* Dark footer background */
+  color: white; /* Light footer text */
+}

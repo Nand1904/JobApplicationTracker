@@ -1,0 +1,111 @@
+/* login.css - Specific styles for the login page */
+
+body {
+  background-color: #f0f0f0; /* Light background for the whole page */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the body takes up the full height */
+}
+
+.container {
+  max-width: 350px; /* Reduced the maximum width */
+  margin: auto;
+  padding: 30px;
+  background: white; /* White background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 20px; /* Space above the form */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  border-radius: 5px;
+  background: #f9f9f9; /* Light background for input fields */
+  color: #333;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a shadow effect */
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #28a745; /* Changed to green for consistency */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s; /* Added transform effect */
+}
+
+button:hover {
+  background: #218838; /* Darker shade on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: auto; /* Ensure footer is pushed to the bottom */
+  text-align: center;
+  padding: 20px; /* Add some padding */
+  background-color: #343a40; /* Dark footer background */
+  color: white; /* Light footer text */
+}
+
+.navbar {
+  margin-bottom: 20px; /* Space between navbar and content */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important; /* Ensure navbar text is white */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ccc; /* Lighter color on hover */
+}
+.login-container {
+  width: 300px; /* Set a narrower width for the login container */
+  margin: auto; /* Center the container */
+  padding: 40px; /* Increased padding inside the container */
+  border: 1px solid #ccc; /* Optional: border for the container */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+}
+
+.login-container h2 {
+  margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.login-container input {
+  margin-bottom: 15px; /* Add margin below each input field */
+  padding: 10px; /* Add padding inside the input fields */
+  width: 100%; /* Ensure input fields take full width of container */
+}
+
+.login-container button {
+  width: 100%; /* Button takes full width */
+  padding: 10px; /* Add padding inside the button */
+}
+

@@ -1,7 +1,15 @@
 body {
-    background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(255, 204, 204, 0.5), rgba(204, 255, 255, 0.5));
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 
 .navbar {
     margin-bottom: 20px;
@@ -22,4 +30,48 @@ body {
 
 .table td {
     vertical-align: middle;
+}
+.login-container {
+    width: 300px; /* Adjust this value as needed */
+    margin: auto; /* Centers the box */
+    padding: 20px; /* Optional: add some padding */
+    border: 1px solid #ccc; /* Optional: add a border */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
+.button {
+    background-color: green; /* Or your desired color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.button:hover {
+    background-color: darkgreen; /* Darker shade on hover */
+}
+
+.flashes {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0 0 20px 0; /* Add margin below the list */
+}
+
+.flashes li {
+    padding: 5px; /* Add padding to each message */
+    margin-bottom: 10px; /* Space between messages */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+}
+
+.flashes .success {
+    background-color: #4caf50; /* Green for success messages */
+}
+
+.flashes .danger {
+    background-color: #f44336; /* Red for danger messages */
+}
+
+.flashes .info {
+    background-color: #2196F3; /* Blue for info messages */
 }
