@@ -115,7 +115,7 @@ $$N=∑i=1nAiN = \sum_{i=1}^{n} A_iN=i=1∑n​Ai​$$
 
 Where $Ai$ is the application at position i, and nnn is the total number of applications.
 
-Track your applications and stay organized! $\text{Track your applications and stay organized!}$ Track your applications and stay organized!
+Track your applications and stay organized!
 
 Contribution
 ------------
@@ -127,14 +127,10 @@ License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-markdown
 
-Copy code
-
- `### Key Sections:
+ ```### Key Sections:
 - **Correct Project Structure**: Reflects the structure from the image.
 - **Setup Instructions**: How to get the app running locally.
 - **Technology Stack**: Highlights what was used in the project.
 - **Contribution and License**: Invites others to contribute and includes license info.
-
-Let me know if you want any further customizations!`
+```
