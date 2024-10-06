@@ -75,36 +75,16 @@ Setup Instructions
 To run the application locally, follow these steps:
 
 1.  **Clone the repository**:
-
-    bash
-
-    Copy code
-
-    `git clone https://github.com/yourusername/job-application-tracker.git`
+    ```git clone https://github.com/yourusername/job-application-tracker.git```
 
 2.  **Install dependencies**:
-
-    bash
-
-    Copy code
-
-    `pip install -r requirements.txt`
+    ```pip install -r requirements.txt```
 
 3.  **Set up the database**:
-
-    bash
-
-    Copy code
-
-    `python run.py`
+    ```python run.py```
 
 4.  **Run the application**:
-
-    bash
-
-    Copy code
-
-    `flask run`
+    ```flask run```
 
 Mathematical Model (LaTeX)
 --------------------------
