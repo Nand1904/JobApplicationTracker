@@ -63,7 +63,7 @@ The following technologies were used to build this project:
 │   ├── env.py
 │   ├── script.py.mako
 │   └── versions/
-├── venv/
+├── venv
 ├── config.py
 ├── README.md
 ├── requirements.txt
